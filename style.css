@@ -1,0 +1,244 @@
+*{
+    margin:0px;
+    border: border-box;
+    padding:0;
+    font-family: sans-serif;
+}
+header{
+    position:sticky;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    height: 50px;
+}
+/* Box 1 */
+.logo{
+    background-image: url(logo.jpg);
+    background-size: cover;
+    width: 200px;
+}
+/* box 2 */
+.pet{
+    text-decoration: none;
+    color: rgb(21, 74, 173);
+    font-weight: 700;
+    margin-top: 15px;
+}
+.pet:hover{
+    color: orange;
+}
+/* box 3 */
+.contact{
+    margin-top: 13px;
+}
+.phone-num{
+    text-decoration: none;
+    color: orange;
+    font-weight: 700;   
+}
+.contact i {
+    font-size: 20px;
+}
+/* box 4 */
+button{
+    height:40px ;
+    width: 150px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+}
+.header-button{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+/* ============================================================================================== */
+/* navbar */
+.navbar{
+    height: 50px;
+    width: 97%;
+    background-color: black;
+    
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.navbar ul a{
+    text-decoration: none;
+    margin-top: 15px;
+    color: white;
+}
+.navbar ul a:hover{
+    color: orange;
+}
+/* ============================================================================================== */
+/* Hero section-1 */
+
+.hero-sec1{
+    height: 300px;
+    width: 100%;
+    background-image: url(hero-section.jpg);
+    background-size: cover;
+}
+/* navbar */
+.nav-options{
+    height: 30px;
+    width: 97%;
+    background-color: rgb(200, 189, 189);
+}
+.nav-content{
+    width: 35%;
+}
+.nav-content ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-a{
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+    margin-top: 5px;
+    font-size: 14px;
+}
+.nav-a:hover{
+    color: white;
+}
+.nav-content i{
+    color: orange;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* ======================================================================================================= */
+
+/* hero Section 2 */
+.hero-sec2{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+/* Content 1 */
+
+
+.content1{
+    height: 500px;
+    width: 600px;
+    
+}
+.content1 h1{
+    color: rgb(21, 74, 173);
+    margin-top: 20px;
+}
+.content1 h3{
+    margin-top: 10px;
+    line-height: 25px;
+}
+.content1 h3:hover{
+    border: 1px solid orange;
+    border-radius: 2px;
+    padding-left: 5px;
+}
+.content1 p{
+    font-size: 14px;
+    color: black;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+.guaranted{
+    height: 250px;
+    width: 600px;
+    margin-top: 15px;
+    display: flex;
+    text-align: center;
+    padding-left:10px ;
+}
+.guaranted:hover{
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+.guaranty-content{
+    height: 300px;
+    width: 300px;
+}
+.guaranty-content h1{
+    color: orange;
+}
+.guaranty-image{
+    position: relative;
+    top: 10px;
+    background-image: url(image_1.jpg);
+    background-size: cover;
+    height: 220px;
+    width: 300px;
+}
+
+/* Content 2 */
+.hs2-form{
+    height: 430px;
+    width: 300px;
+    background-color:rgb(237, 226, 226);   
+    box-shadow: rgb(219, 200, 200);
+}
+.heading{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: orange;
+    text-align: center;
+}
+form{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+#help{
+    padding-top:15px ;
+    font-weight: 700;
+}
+form input{
+    width: 220px;
+    height:28px;
+    border: none;
+    border-radius: 3px;
+}
+form label{
+    font-size: 14px;
+    font-weight: 700;
+}
+form textarea{
+    height: 100px;
+    width:220px;
+    border: none;
+    border-radius: 3px;
+}
+#form-btn{
+    height:40px ;
+    width: 230px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
